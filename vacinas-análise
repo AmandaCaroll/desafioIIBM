@@ -1,0 +1,64 @@
+#ETE Porto Digital
+#Recife, 25 de Maio de 2021 
+#Aluna: Amanda Colaço 
+#Série: 3ºB
+
+#Verificando elementos e associações dentro das Vacinas em Análise pela Anvisa. 
+
+vacinas_analisadas = ['Pfizer-BioNTech', 'Coronavac', 'AstraZeneca', 'Janssen']
+print ('As vacinas que estão sob análise da anvisa são: ', vacinas_analisadas)
+
+local_desenvolvido = ['EUA', 'Brasil', 'China', 'Alemanha', 'Belgica', 'Reino Unido']
+print ('Segue em anexo onde cada vacina foi desenvolvida:')
+x = vacinas_analisadas
+y = local_desenvolvido
+print (x[0] ," -> ", y[0], " e ", y[3])
+print (x[1] ," -> ", y[1], " e ", y[2])
+print (x[2] ," -> ", y[5])
+print (x[3] ," -> ", y[4])
+
+analise_anvisa = [83.45, 85.12, 75.04, 21.67,]
+z= analise_anvisa
+print ('Segue em anexo como anda o processo de análise da Anvisa:')
+print (x[0], " = ",z[2],"%")
+print (x[1], " = ",z[1],"%")
+print (x[2], " = ",z[0],"%")
+print (x[3], " = ",z[3],"%")
+
+eficacia = [95, 78, 70.40, 66]
+w= eficacia
+print('Segue em anexo a eficácia de cada vacina:')
+print (x[0], " = ",w[0],"%")
+print (x[1], " = ",w[1],"%")
+print (x[2], " = ",w[2],"%")
+print (x[3], " = ",w[3],"%") 
+
+coronavac_vantagem = ['Fácil acesso', 'Confiabilidade', 'Fácil armazenamento.']
+coronavac_desvantagem = ['Exige um alto rigor em sua fabricação', 'Pouco rendimento','Fabricação demorada.']
+
+janssen_vantagem =['Apenas uma dose', 'Baseada na tecnologia do vetor viral não-replicante.']
+janssen_desvantagem =  ['falta de dados concluídos.']
+
+astrazeneca_vantagem = ['Fiocruz como distribuidora', 'baixo custo', 'fácil armazenamento.']
+astrazeneca_desvantagem = ['Fabricação demorada', 'Sua fórmula traz pouco rendimento', 'Exige alto rigor em sua fabricação.']
+
+pfizer_vantagem = ['Produção Rápida', 'Fácil de ser produzida.']
+pfizer_desvantagem =['Só pode ser armazenada em uma temperatura de -70 c°']
+
+print ('Vantagens e desvantagens encontradas em cada vacina:')
+
+print ('Coronavac')
+print ('vantagens: ', coronavac_vantagem)
+print ('desvantagens: ', coronavac_desvantagem)
+
+print ('Janssen')
+print ('vantagens: ', janssen_vantagem)
+print ('desvantagens: ', janssen_desvantagem)
+
+print ('AstraZeneca')
+print ('vantagens: ', astrazeneca_vantagem)
+print ('desvantagens: ', astrazeneca_desvantagem)
+
+print ('Pfizer-BioNTech')
+print ('vantagens: ', pfizer_vantagem)
+print ('desvantagens: ', pfizer_desvantagem)
